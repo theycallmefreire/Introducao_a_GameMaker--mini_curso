@@ -76,5 +76,35 @@ Tendo entendido o que é um sprite, vamos montar o nosso:
   - moeda
   - espinho
 
-  continuar dps kkkkkk
+3 - Objetos
+---
+Agora q os sprites iniciais estão criados, vamos criar os objetos desses personagens!
+### Mas o que raios é um objeto?
+Objetos (ou GameObjects) são todos os elementos que compõem o jogo, como personagens, itens, câmeras, luzes e o cenário. Eles funcionam como blocos de construção, cada um com suas próprias características (atributos) e comportamentos (ações/lógica), permitindo organizar e dar funcionalidade ao mundo do jogo.
+
+### vamos criar o objeto do nosso personagem:
+- na pasta "objects" crie o objeto;
+  
+   <img width="526" height="507" alt="image" src="https://github.com/user-attachments/assets/921cf322-a8c0-4a44-9752-eb91b601eb5f" />
+
+ - Vai abrir essa tela;
+   
+   <img width="838" height="601" alt="image" src="https://github.com/user-attachments/assets/130fc634-c3c2-4bf0-9463-6ea4a8033e27" />
+   
+- Agora coloque o nome "Obj_player" seguindo a mesma logica do nome das sprites;
+- Adicione o Spr_player ao objeto:
+   - clique aqui;
+     
+     <img width="303" height="142" alt="image" src="https://github.com/user-attachments/assets/60029254-a4eb-4f17-8fa1-9c3a62244dc2" />
+   - selecione a pasta aonde estão os sprites e selecione o sprite;
+     <img width="557" height="291" alt="image" src="https://github.com/user-attachments/assets/beadd990-4549-406e-b251-c46834419d36" />
+
+### Agora vamos codar!
+- Clique em "Adicionar evento";
+- clique em "Criar";
+- Escreva o codigo a baixo;
+
+     window_set_size(1280,720);
+     velocidade = 3;
+
 
